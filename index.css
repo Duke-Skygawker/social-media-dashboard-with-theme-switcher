@@ -6,7 +6,7 @@
   /* Highlights */
   --Facebook: hsl(208, 92%, 53%);
   --Twitter: hsl(203, 89%, 53%);
-  --Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+  --Instagram: linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%));
   --YouTube: hsl(348, 97%, 39%);
 
   /* Dark Theme */
@@ -77,6 +77,71 @@ h6 {
   isolation: isolate;
 }
 /* CSS RESET END */
+/* The theme switcher */
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* Switcher end */
+
 /* Frontend Mentor provided classes */
 .attribution {
   font-size: 11px;
@@ -86,3 +151,53 @@ h6 {
   color: hsl(228, 45%, 44%);
 }
 /* Mentor end */
+/* Custom classes */
+.main-div {
+  width: 90%;
+  margin: auto;
+}
+.top-div {
+  margin-top: 2em;
+}
+.divider {
+  border-bottom: 1px solid black;
+  margin: 1em auto;
+}
+.theme-switch {
+  display: flex;
+  justify-content: space-between;
+}
+.total-followers {
+  margin: 0 auto;
+  text-align: center;
+}
+.total {
+  width: 100%;
+  height: 22em;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Light-Grayish-Blue);
+  margin: 3em auto;
+  border-radius: 2%;
+}
+.total.facebook {
+  border-top: 7px var(--Facebook) solid;
+}
+.total.twitter {
+  border-top: 7px var(--Twitter) solid;
+}
+.total.instagram {
+  border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))
+    10;
+  border-width: 7px;
+  border-top-style: solid;
+}
+.total.youtube {
+  border-top: 7px var(--YouTube) solid;
+}
+.total h1 {
+  font-size: 5em;
+}
+/* Custom end */
