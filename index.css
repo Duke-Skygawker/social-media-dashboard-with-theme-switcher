@@ -233,4 +233,47 @@ input:checked + .slider:before {
   margin-top: 0.5em;
   margin-right: 0.4em;
 }
+/* .daily-card {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+} */
+.daily-overview {
+  font-size: 2.5em;
+}
+.daily-stats {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 10em;
+  background-color: var(--Light-Grayish-Blue);
+  margin: 2em 0 2em 0;
+  border-radius: 3%;
+}
+.daily-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 1em 2em;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.daily-header img {
+  width: 1.5em;
+}
+.daily-numbers {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: 1em 2em;
+}
+.daily-numbers p {
+  font-size: 3em;
+  font-weight: 700;
+}
+.stats-up {
+  font-weight: 700;
+  color: var(--Lime-Green);
+  font-size: 1em;
+}
 /* Custom end */
