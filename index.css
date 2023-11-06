@@ -160,7 +160,7 @@ input:checked + .slider:before {
   margin-top: 2em;
 }
 .divider {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   margin: 1em auto;
 }
 .theme-switch {
@@ -197,7 +197,40 @@ input:checked + .slider:before {
 .total.youtube {
   border-top: 7px var(--YouTube) solid;
 }
+.handle-p {
+  font-weight: 700;
+  font-size: 1.2em;
+  display: flex;
+  margin-bottom: 1em;
+}
+.handle-p img {
+  width: 1.5em;
+  margin-right: 0.5em;
+}
 .total h1 {
-  font-size: 5em;
+  font-size: 5.5em;
+}
+.followers-section p {
+  margin-top: -1em;
+  font-size: 1.5em;
+  letter-spacing: 7px;
+}
+.follower-up,
+.follower-down {
+  display: flex;
+  color: var(--Lime-Green);
+  font-weight: 700;
+  margin-top: 3em;
+  font-size: 1.4em;
+}
+.follower-down {
+  color: var(--Bright-Red);
+}
+.follower-up img,
+.follower-down img {
+  width: 0.8em;
+  height: 0.4em;
+  margin-top: 0.5em;
+  margin-right: 0.4em;
 }
 /* Custom end */
