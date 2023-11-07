@@ -268,12 +268,26 @@ input:checked + .slider:before {
   margin: 1em 2em;
 }
 .daily-numbers p {
+  margin-top: -0.2em;
   font-size: 3em;
   font-weight: 700;
 }
-.stats-up {
+.stats-up,
+.stats-down {
+  margin-top: 1em;
+  display: flex;
   font-weight: 700;
   color: var(--Lime-Green);
   font-size: 1em;
+}
+.stats-down {
+  color: var(--Bright-Red);
+}
+
+.stats-up img,
+.stats-down img {
+  margin-right: 0.3em;
+  margin-top: 0.5em;
+  height: 0.5em;
 }
 /* Custom end */
