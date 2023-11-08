@@ -199,6 +199,8 @@ input:checked + .slider:before {
   background-color: var(--Light-Grayish-Blue);
   margin: 3em auto;
   border-radius: 2%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .total.facebook {
   border-top: 7px var(--Facebook) solid;
@@ -207,11 +209,8 @@ input:checked + .slider:before {
   border-top: 7px var(--Twitter) solid;
 }
 .total.instagram {
-  border-image: linear-gradient(
-    to right,
-    hsl(37, 97%, 70%),
-    hsl(329, 70%, 58%)
-  );
+  border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))
+    round;
   border-image-slice: 1;
   border-width: 7px;
   border-top-style: solid;
