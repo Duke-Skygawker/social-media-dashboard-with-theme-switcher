@@ -298,7 +298,7 @@ input:checked + .slider:before {
   flex-flow: row;
   justify-content: space-between;
   margin: 2em;
-  margin-top: 0.5em;
+  margin-top: -0.3em;
 }
 .daily-numbers p {
   margin-top: -0.2em;
@@ -390,8 +390,7 @@ input:checked + .slider:before {
   .daily-stats {
     padding-top: 0.5em;
   }
-  .daily-header,
-  .daily-numbers {
+  .daily-header {
     margin-top: 1.5em;
   }
 }
