@@ -325,8 +325,30 @@ input:checked + .slider:before {
   .total {
     width: 48%;
   }
+  .daily-activity {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+  .daily-card {
+    width: 50%;
+  }
+  .daily-stats {
+    height: 12em;
+    padding-top: 0.5em;
+  }
+  .daily-header,
+  .daily-numbers {
+    margin-top: 1.5em;
+  }
 }
 @media only screen and (min-width: 1440px) {
+  body {
+    font-size: 13px;
+  }
+  .main-div {
+    width: 80%;
+  }
   .total {
     width: 23.5%;
   }
