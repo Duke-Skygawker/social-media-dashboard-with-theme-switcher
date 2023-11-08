@@ -161,9 +161,11 @@ input:checked + .slider:before {
 }
 .top-div h1 {
   font-size: 2.3em;
+  color: var(--Very-Dark-Blue);
 }
 .top-div h3 {
   font-size: 1.35em;
+  color: var(--Dark-Grayish-Blue);
 }
 
 .divider {
@@ -176,6 +178,7 @@ input:checked + .slider:before {
 }
 .theme-switch h3 {
   font-size: 1.4em;
+  color: var(--Dark-Grayish-Blue);
 }
 .total-followers {
   margin: 0 auto;
@@ -213,6 +216,7 @@ input:checked + .slider:before {
   display: flex;
   margin-bottom: 1.2em;
   margin-top: 1.1em;
+  color: var(--Dark-Grayish-Blue);
 }
 .handle-p img {
   width: 1.5em;
@@ -220,11 +224,13 @@ input:checked + .slider:before {
 }
 .total h1 {
   font-size: 5.5em;
+  color: var(--Very-Dark-Blue);
 }
 .followers-section p {
   margin-top: -1em;
   font-size: 1.5em;
   letter-spacing: 5px;
+  color: var(--Desaturated-Blue);
 }
 .follower-up,
 .follower-down {
@@ -256,7 +262,7 @@ input:checked + .slider:before {
   display: flex;
   flex-flow: column;
   width: 100%;
-  height: 10em;
+  height: 12em;
   background-color: var(--Light-Grayish-Blue);
   margin: 2em 0 2em 0;
   border-radius: 3%;
@@ -265,7 +271,7 @@ input:checked + .slider:before {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  margin: 1em 2em;
+  margin: 2em;
   font-weight: 700;
   font-size: 1.2em;
 }
@@ -276,7 +282,8 @@ input:checked + .slider:before {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  margin: 1em 2em;
+  margin: 2em;
+  margin-top: 0.5em;
 }
 .daily-numbers p {
   margin-top: -0.2em;
@@ -312,7 +319,8 @@ input:checked + .slider:before {
 }
 .dark-mode .attribution,
 .dark-mode .top-div h1,
-.dark-mode .daily-overview {
+.dark-mode .daily-overview,
+.dark-mode .total h1 {
   color: var(--White);
 }
 .dark-mode .total,
@@ -360,7 +368,6 @@ input:checked + .slider:before {
     width: 50%;
   }
   .daily-stats {
-    height: 12em;
     padding-top: 0.5em;
   }
   .daily-header,
