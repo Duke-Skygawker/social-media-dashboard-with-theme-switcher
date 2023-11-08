@@ -302,3 +302,22 @@ input:checked + .slider:before {
   height: 0.5em;
 }
 /* Custom end */
+/* Media Queries */
+@media only screen and (min-width: 1200px) {
+  .divider {
+    display: none;
+  }
+  .total-followers {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1em;
+  }
+  .total {
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .total {
+    width: 24%;
+  }
+}
