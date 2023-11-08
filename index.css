@@ -167,7 +167,7 @@ input:checked + .slider:before {
 }
 
 .divider {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--Dark-Grayish-Blue);
   margin: 1em auto;
 }
 .theme-switch {
@@ -232,7 +232,7 @@ input:checked + .slider:before {
   color: var(--Lime-Green);
   font-weight: 700;
   margin-top: 1.7em;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .follower-down {
   color: var(--Bright-Red);
@@ -289,7 +289,7 @@ input:checked + .slider:before {
   display: flex;
   font-weight: 700;
   color: var(--Lime-Green);
-  font-size: 1em;
+  font-size: 1.2em;
 }
 .stats-down {
   color: var(--Bright-Red);
@@ -302,6 +302,32 @@ input:checked + .slider:before {
   height: 0.5em;
 }
 /* Custom end */
+/* Dark mode */
+.dark-mode {
+  background-color: var(--Very-Dark-Blue-2);
+}
+
+.dark-mode .top-div {
+  color: var(--Desaturated-Blue);
+}
+.dark-mode .attribution,
+.dark-mode .top-div h1,
+.dark-mode .daily-overview {
+  color: var(--White);
+}
+.dark-mode .total,
+.dark-mode .daily-stats {
+  background-color: var(--Dark-Desaturated-Blue);
+  color: var(--White);
+}
+.dark-mode .handle-p,
+.dark-mode .daily-header {
+  color: var(--Desaturated-Blue);
+}
+.dark-mode .followers-section p {
+  color: var(--Desaturated-Blue);
+}
+
 /* Media Queries */
 @media only screen and (min-width: 1200px) {
   .top-div {
