@@ -16,8 +16,8 @@ Users should be able to:
 
 ## Solution
 
--Repo: (https://github.com/Duke-Skygawker/social-media-dashboard-with-theme-switcher)
--GitHub Pages: (https://duke-skygawker.github.io/social-media-dashboard-with-theme-switcher/)
+- Repo: (https://github.com/Duke-Skygawker/social-media-dashboard-with-theme-switcher)
+- GitHub Pages: (https://duke-skygawker.github.io/social-media-dashboard-with-theme-switcher/)
 
 ## My process
 
@@ -32,5 +32,5 @@ Users should be able to:
 
 ### What I learned
 
--I've learned that Flexbox is more (!sic) flexible, than I thought.
--And that it's very hard to have a rounded border with linear-gradient (I wasn't able to do it.)
+- I've learned that Flexbox is more (!sic) flexible, than I thought.
+- And that it's very hard to have a rounded border with linear-gradient (I wasn't able to do it.)
