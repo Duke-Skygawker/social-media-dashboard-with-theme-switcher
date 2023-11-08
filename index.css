@@ -304,13 +304,23 @@ input:checked + .slider:before {
 /* Custom end */
 /* Media Queries */
 @media only screen and (min-width: 1200px) {
+  .top-div {
+    display: flex;
+    justify-content: space-between;
+  }
   .divider {
     display: none;
+  }
+  .theme-switch {
+    margin-top: 0.6em;
+  }
+  .switch {
+    margin-left: 0.7em;
   }
   .total-followers {
     display: flex;
     flex-flow: wrap;
-    gap: 1em;
+    gap: 1.3em;
   }
   .total {
     width: 48%;
@@ -318,6 +328,6 @@ input:checked + .slider:before {
 }
 @media only screen and (min-width: 1440px) {
   .total {
-    width: 24%;
+    width: 23.5%;
   }
 }
